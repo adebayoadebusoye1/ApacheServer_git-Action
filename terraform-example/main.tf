@@ -40,7 +40,7 @@ ingress {
 resource "aws_instance" "Adebayo_instance" {
   ami             = "ami-0261755bbcb8c4a84" # Ubuntu AMI ID
   instance_type   = "t2.medium"             # Change this to your preferred instance type
-  key_name = "sure"
+  #key_name = "sure"
   count = 4
   user_data = <<-EOF
     #!/bin/bash
