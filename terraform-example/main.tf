@@ -48,7 +48,7 @@ resource "aws_instance" "Adebayo_instance" {
     sudo apt install apache2 -y
     systemctl restart apache2
     systemctl enable apache2
-    echo "I will never be broke in my life!" > /var/www/html/index.html
+    echo "Aje!" > /var/www/html/index.html
     EOF 
 
   // Associate the security group with the instance
